@@ -2,7 +2,6 @@ from celery import Celery
 import os
 
 # 读取Django的配置
-# os.environ["DJANGO_SETTINGS_MODULE"] = "celery_demo_project.settings"
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "celery_demo_project.settings")
 
 # 通过app对象加载配置
