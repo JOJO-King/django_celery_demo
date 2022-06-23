@@ -1,0 +1,2 @@
+# django_celery_demo
+Django配合Celery实现异步任务和定时任务的demo
